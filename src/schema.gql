@@ -32,6 +32,6 @@ type Query {
 
 input UpdateBookInput {
   author: String
-  id: Float!
+  id: String!
   title: String
 }

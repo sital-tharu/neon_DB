@@ -3,6 +3,6 @@ import { CreateBookInput } from "./create_bookinput";
 @InputType()
 export class UpdateBookInput extends PartialType(CreateBookInput) {
     @Field()
-    id: number;
+    id: string;
 
 }
